@@ -18,7 +18,10 @@ function App() {
       <Student id="2" name="Saikot" grade="A"></Student>
       <Student id="3" name="Alif" grade="A"></Student>
       <Student id="4" name="Liton" grade="A"></Student> */}
-      <Todo></Todo>
+      <Todo task="learn react" isDone={true}></Todo>
+      <Todo task="Props" isDone={false}></Todo>
+      <Todo task="Props with distructer" isDone={true}></Todo>
+      <Todo task="Props with export import" isDone={false}></Todo>
     </>
   );
 }
