@@ -1,18 +1,10 @@
 # React + Vite
 
-##This is how you can create a react app locally
+## How to Create a React App Locally
 
-###just paste the command in your terminal
+Follow these steps to set up a React app using Vite:
 
-`npm create vite@latest my-first-react-app -- --template react`
-
-then you have to run this step by step
-
-`cd my-first-react-app`
-
-`npm install`
-
-`npm run dev`
-#Booom!!! Your are ready to go.
-
-#Thanks Me Later.Bye 😄
+### Step 1: Create the React App
+Run the following command in your terminal:
+```bash
+npm create vite@latest my-first-react-app -- --template react
