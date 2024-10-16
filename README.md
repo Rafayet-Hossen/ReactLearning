@@ -17,8 +17,10 @@ cd my-first-react-app
 ```bash
 npm install
 ```
-### Step 4: Run and (Press ctrl and click the localhost link) Booom 😱
+### Step 4: Run react app
 ```bash
 npm run dev
 ```
+#### In your terminal you will get a localhost link and (Press ctrl and click the localhost link) and Booom!!! 😱
+
 # Happy Coding 😃
