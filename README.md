@@ -1,8 +1,18 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##This is how you can create a react app locally
 
-Currently, two official plugins are available:
+###just paste the command in your terminal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`npm create vite@latest my-first-react-app -- --template react`
+
+then you have to run this step by step
+
+`cd my-first-react-app`
+
+`npm install`
+
+`npm run dev`
+#Booom!!! Your are ready to go.
+
+#Thanks Me Later.Bye 😄
