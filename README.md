@@ -13,11 +13,11 @@ npm create vite@latest my-first-react-app -- --template react
 ```bash
 cd my-first-react-app
 ```
-### Step 3:
+### Step 3: Install npm in your project
 ```bash
 npm install
 ```
-### Step 4:
+### Step 4: Run and Booom 😱
 ```bash
 npm run dev
 ```
