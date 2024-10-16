@@ -3,9 +3,10 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Todo from './Todo'
+import Actor from './Actor'
 function App() {
   const [count, setCount] = useState(0);
-
+  const actors = ['Sakib','Raj', 'Rubel', 'Josim','Salman Sah'];
   return (
     <>
       <React></React>
@@ -18,10 +19,13 @@ function App() {
       <Student id="2" name="Saikot" grade="A"></Student>
       <Student id="3" name="Alif" grade="A"></Student>
       <Student id="4" name="Liton" grade="A"></Student> */}
-      <Todo task="learn react" isDone={true}></Todo>
+      {/* <Todo task="learn react" isDone={true}></Todo>
       <Todo task="Props" isDone={false}></Todo>
       <Todo task="Props with distructer" isDone={true}></Todo>
-      <Todo task="Props with export import" isDone={false}></Todo>
+      <Todo task="Props with export import" isDone={false}></Todo> */}
+      {
+        actors.map(actor => <Actor name={actor}>Name:</Actor>)
+      }
     </>
   );
 }
