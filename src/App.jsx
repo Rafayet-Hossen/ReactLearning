@@ -2,7 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-
+import Todo from './Todo'
 function App() {
   const [count, setCount] = useState(0);
 
@@ -18,6 +18,7 @@ function App() {
       <Student id="2" name="Saikot" grade="A"></Student>
       <Student id="3" name="Alif" grade="A"></Student>
       <Student id="4" name="Liton" grade="A"></Student> */}
+      <Todo></Todo>
     </>
   );
 }
